@@ -10,7 +10,7 @@
   </head>
   <body>
     <!-- navbar -->
-        <header class="d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom" style="background-color: #d5e5f0;">
+        <header class="navbar sticky-top bg-body-tertiary" class="d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom" style="background-color: #feffff;">
           <a href="/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-dark text-decoration-none">
             <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR7ES7Ziv2XwKJNkx_BJ2M-6nvV6piO0JY7XQ&usqp=CAU" class="bi me-2" width="40" height="32" alt="diamond tech logo">
             <span class="fs-4">Diamond Tech</span>
@@ -20,7 +20,7 @@
             <li class="nav-item"><a href="#home" class="nav-link">Home</a></li>
             <li class="nav-item"><a href="#about" class="nav-link">About Us</a></li>
             <li class="nav-item"><a href="#products" class="nav-link">Our Products</a></li>
-            <li class="nav-item"><a href="#" class="nav-link">Contact Us</a></li>
+            <li class="nav-item"><a href="#contact" class="nav-link">Contact Us</a></li>
           </ul>
         </header>
 
@@ -105,11 +105,17 @@
         </div>
 
         <!-- contact us -->
-        <div class="container col-xl-10 col-xxl-8 px-4 py-5">
+        <div class="container col-xl-10 col-xxl-8 px-4 py-5" id="contact">
           <div class="row align-items-center g-lg-5 py-5">
             <div class="col-lg-7 text-center text-lg-start">
               <h1 class="display-4 fw-bold lh-1 text-body-emphasis mb-3">Contact Us</h1>
-              <p class="col-lg-10 fs-4">Below is an example form built entirely with Bootstrap’s form controls. Each required form group has a validation state that can be triggered by attempting to submit the form without completing it.</p>
+              <p class="col-lg-10 fs-4">You can contact us by filling the contact form to the right,
+                alternatively,
+                <br>
+                <i class="fa-regular fa-envelope"></i> Email : diamondtech@tech.com
+                <br>
+                <i class="fa-solid fa-phone"></i> Phone : 021 505 5511
+              </p>
             </div>
             <div class="col-md-10 mx-auto col-lg-5">
               <form class="p-4 p-md-5 border rounded-3 bg-body-tertiary">
@@ -118,21 +124,32 @@
                   <label for="floatingInput">Email address</label>
                 </div>
                 <div class="form-floating mb-3">
-                  <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
-                  <label for="floatingPassword">Password</label>
+                  <input type="text" class="form-control" id="floatingInput" placeholder="name@example.com">
+                  <label for="floatingInput">Phone Number</label>
                 </div>
-                <div class="checkbox mb-3">
-                  <label>
-                    <input type="checkbox" value="remember-me"> Remember me
-                  </label>
+                <div class="form-floating">
+                  <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea"></textarea>
+                  <label for="floatingTextarea">Type your text here</label>
                 </div>
-                <button class="w-100 btn btn-lg btn-primary" type="submit">Sign up</button>
-                <hr class="my-4">
-                <small class="text-body-secondary">By clicking Sign up, you agree to the terms of use.</small>
+                <button class="w-100 btn btn-lg btn-primary" type="submit">Contact us</button>
               </form>
             </div>
           </div>
         </div>
+
+        <!-- footer -->
+        <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+          <div class="col-md-4 d-flex align-items-center">
+            <span class="mb-3 mb-md-0 text-body-secondary"><i class="fa-solid fa-code"></i> Coded by: Saajida Mathen</span>
+          </div>
+
+          <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+            <li class="ms-3"><a href="https://www.instagram.com/saajidamathen/" target="_blank"><i class="fa-brands fa-instagram fa-xl"></i></a></li>
+            <li class="ms-3"><a href="https://github.com/Saaj1" target="_blank"><i class="fa-brands fa-github fa-xl"></i></i></a></li>
+            <li class="ms-3"><a href="https://www.linkedin.com/in/saajida-mathen-b53020263/" target="_blank"><i class="fa-brands fa-linkedin fa-xl"></i></a></li>
+        </footer>
+      </div>
+
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
   </body>
