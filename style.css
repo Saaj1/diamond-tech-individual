@@ -4,6 +4,10 @@
   background-color: rgb(117, 225, 224) !important;
   border: none !important;
 }
+
+.btn:hover {
+  background-color: palevioletred !important;
+}
 /* footer styling */
 .icon {
   color: black;
