@@ -1,0 +1,22 @@
+
+/* buttons styling */
+.btn {
+  background-color: rgb(117, 225, 224) !important;
+  border: none !important;
+}
+/* footer styling */
+.icon {
+  color: black;
+}
+
+.icon:hover {
+  color: rgb(117, 225, 224);
+}
+
+.nav-link {
+  color: black !important;
+}
+
+.nav-link:hover {
+  color: rgb(117, 225, 224) !important;
+}
