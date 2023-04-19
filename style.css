@@ -1,28 +1,28 @@
 
 body {
-  background-color:#edf6f9 !important;
+  background-color:#edf6f9;
 }
 
 /* navbar styling */
 .nav-link {
-  color: black !important;
+  color: black ;
 }
 
 .nav-link:hover {
-  color: rgb(117, 225, 224) !important;
+  color: rgb(117, 225, 224) ;
 }
 
 /* buttons styling */
 .btn {
-  background-color: rgb(117, 225, 224) !important;
-  border: none !important;
+  background-color: rgb(117, 225, 224) ;
+  border: none;
 }
 
 .btn:hover {
-  background-color: palevioletred !important;
+  background-color: palevioletred ;
 }
 .btn-contact {
-  margin-top: 1.5rem !important;
+  margin-top: 1.5rem ;
 }
 
 /* footer styling */
@@ -36,5 +36,5 @@ body {
 
 
 .footer {
-  padding: 2rem !important;
+  padding: 2rem;
 }
