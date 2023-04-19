@@ -8,6 +8,10 @@
 .btn:hover {
   background-color: palevioletred !important;
 }
+.btn-contact {
+  margin-top: 1.5rem !important;
+}
+
 /* footer styling */
 .icon {
   color: black;
@@ -23,4 +27,8 @@
 
 .nav-link:hover {
   color: rgb(117, 225, 224) !important;
+}
+
+.footer {
+  padding: 2rem !important;
 }
