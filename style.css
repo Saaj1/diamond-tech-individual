@@ -1,4 +1,17 @@
 
+body {
+  background-color:#edf6f9 !important;
+}
+
+/* navbar styling */
+.nav-link {
+  color: black !important;
+}
+
+.nav-link:hover {
+  color: rgb(117, 225, 224) !important;
+}
+
 /* buttons styling */
 .btn {
   background-color: rgb(117, 225, 224) !important;
@@ -21,13 +34,6 @@
   color: rgb(117, 225, 224);
 }
 
-.nav-link {
-  color: black !important;
-}
-
-.nav-link:hover {
-  color: rgb(117, 225, 224) !important;
-}
 
 .footer {
   padding: 2rem !important;
